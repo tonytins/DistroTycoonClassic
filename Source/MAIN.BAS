@@ -108,7 +108,7 @@ SUB BuildDistroList ()
     AllPackages(4).Name = "START"
     AllPackages(4).Bugs = 2
     AllPackages(4).Description = "The Start Desktop Environment"
-    AllPackages(4).NerdCred = 5
+    AllPackages(4).NerdCred = 1
     AllPackages(4).Popularity = 1
     AllPackages(4).SizeInMB = 2
     AllPackages(4).Version = 1
@@ -611,7 +611,7 @@ SUB DoRandomEvents ()
 
     IF theNum = 28 THEN
         LogEvent ("The new version of Windows is awful!")
-        MyDistro.Hype = MyDistro.Hype - 20
+        MyDistro.Hype = MyDistro.Hype + 20
     END IF
 
 

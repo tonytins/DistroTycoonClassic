@@ -1,6 +1,6 @@
 # Distro Tycoon Classic
 
-Based on Bryan Lunduke's [Linux Tycoon for DOS](https://github.com/BryanLunduke/Linux-Tycoon-DOS), Distro Tycoon Classic intends to tweak and expand upon the game to understand building a tycoon game.
+Based on Bryan Lunduke's [Linux Tycoon for DOS](https://github.com/BryanLunduke/Linux-Tycoon-DOS), Distro Tycoon Classic intends to tweak and expand upon it in order to better understand building a tycoon game.
 
 ## Change Log
 
@@ -15,7 +15,6 @@ To view recent changes, see [ChangeLog.md](./ChangeLog.md)
 
 - Original Author: Bryan Lunduke
 - Maintainer: Tony Bark
-
 
 ## License
 
