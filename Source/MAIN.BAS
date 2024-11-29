@@ -221,14 +221,14 @@ SUB BuildDistroList ()
     AllPackages(14).isOpenSource = 1
     AllPackages(14).TypeOfSoftware = kTypeGame
 
-    AllPackages(15).Name = "CityMax"
+    AllPackages(15).Name = "CityLimits"
     AllPackages(15).Bugs = 2
     AllPackages(15).Description = "Design and run a very fancy city."
-    AllPackages(15).NerdCred = 0
+    AllPackages(15).NerdCred = 3
     AllPackages(15).Popularity = 15
     AllPackages(15).SizeInMB = 120
     AllPackages(15).Version = 1
-    AllPackages(15).isOpenSource = 0
+    AllPackages(15).isOpenSource = 1
     AllPackages(15).TypeOfSoftware = kTypeGame
 
     AllPackages(16).Name = "CoutTrainer"
