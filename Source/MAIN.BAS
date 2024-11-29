@@ -105,6 +105,16 @@ SUB BuildDistroList ()
     AllPackages(3).isOpenSource = 1
     AllPackages(3).TypeOfSoftware = kTypeDesktopEnvironment
 
+    AllPackages(4).Name = "START"
+    AllPackages(4).Bugs = 2
+    AllPackages(4).Description = "The Start Desktop Environment"
+    AllPackages(4).NerdCred = 5
+    AllPackages(4).Popularity = 1
+    AllPackages(4).SizeInMB = 2
+    AllPackages(4).Version = 1
+    AllPackages(4).isOpenSource = 1
+    AllPackages(4).TypeOfSoftware = kTypeDesktopEnvironment
+
 
 
     AllPackages(4).Name = "FlamingRodent"
@@ -597,6 +607,11 @@ SUB DoRandomEvents ()
             LogEvent ("Your Distro is too big to fit on a CD.  That makes people cranky.")
             MyDistro.Hype = MyDistro.Hype - 20
         END IF
+    END IF
+
+    IF theNum = 28 THEN
+        LogEvent ("The new version of Windows is awful!")
+        MyDistro.Hype = MyDistro.Hype - 20
     END IF
 
 
